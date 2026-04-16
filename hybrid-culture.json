@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hybrid Culture — Train Hard. Look Sharp. Live Different.</title>
+  <meta name="description" content="Hybrid Culture: la marca chilena que fusiona Crossfit, Gym y Streetwear en una identidad premium y accesible." />
+
+  <!-- Preconnect for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600;700;900&family=Barlow+Condensed:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+
+  <!-- Base + Theme -->
+  <link rel="stylesheet" href="/shared/css/base.css" />
+  <link rel="stylesheet" href="./css/theme.css" />
+
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+
+<body>
+
+<!-- Noise overlay -->
+<div class="noise" aria-hidden="true"></div>
+
+<!-- Progress bar -->
+<div class="progress-bar" role="progressbar" aria-label="Progreso de lectura"></div>
+
+<!-- ─── NAVIGATION ─────────────────────────── -->
+<nav class="nav" role="navigation" aria-label="Navegación principal">
+  <a href="#hero" class="nav__logo">HYBRID<span>.</span>CULTURE</a>
+  <div class="nav__links">
+    <a href="#manifesto" class="nav__link">Manifiesto</a>
+    <a href="#categories" class="nav__link">Colecciones</a>
+    <a href="#kpis" class="nav__link">Números</a>
+    <a href="#growth" class="nav__link">Crecimiento</a>
+    <a href="https://www.instagram.com/hybridculturecl" target="_blank" rel="noopener" class="nav__cta">
+      Ver Tienda →
+    </a>
+  </div>
+</nav>
+
+<!-- ─── SECTION 1: HERO ────────────────────── -->
+<section class="section hero" id="hero" aria-label="Hero">
+  <div class="hero__bg-grid" aria-hidden="true"></div>
+  <div class="hero__glow" aria-hidden="true"></div>
+
+  <div class="hero__inner">
+    <div class="hero__badge">🇨🇱 &nbsp;Marca Chilena · Crossfit · Gym · Streetwear</div>
+
+    <h1 class="hero__title">
+      <span class="line-1">HYBRID</span>
+      <span class="line-2"><span class="accent">CULTURE</span></span>
+    </h1>
+
+    <p class="hero__sub">Train Hard &nbsp;·&nbsp; Look Sharp &nbsp;·&nbsp; Live Different</p>
+
+    <div class="hero__actions">
+      <a href="https://www.instagram.com/hybridculturecl" target="_blank" rel="noopener" class="btn btn--primary">
+        Ver colección
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+      </a>
+      <a href="#manifesto" class="btn btn--outline">Conocer más</a>
+    </div>
+  </div>
+
+  <div class="hero__scroll-hint" aria-hidden="true">
+    <span>Scroll</span>
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="6 9 12 15 18 9"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ─── MARQUEE ────────────────────────────── -->
+<div class="marquee-wrap" aria-hidden="true">
+  <div class="marquee-track">
+    <span>HYBRID CULTURE</span>
+    <span class="accent">✦</span>
+    <span>CROSSFIT</span>
+    <span class="accent">✦</span>
+    <span>GYM</span>
+    <span class="accent">✦</span>
+    <span>STREETWEAR</span>
+    <span class="accent">✦</span>
+    <span>CHILE</span>
+    <span class="accent">✦</span>
+    <span>PREMIUM</span>
+    <span class="accent">✦</span>
+    <span>ACCESIBLE</span>
+    <span class="accent">✦</span>
+    <span>HYBRID CULTURE</span>
+    <span class="accent">✦</span>
+    <span>CROSSFIT</span>
+    <span class="accent">✦</span>
+    <span>GYM</span>
+    <span class="accent">✦</span>
+    <span>STREETWEAR</span>
+    <span class="accent">✦</span>
+    <span>CHILE</span>
+    <span class="accent">✦</span>
+    <span>PREMIUM</span>
+    <span class="accent">✦</span>
+    <span>ACCESIBLE</span>
+    <span class="accent">✦</span>
+  </div>
+</div>
+
+<!-- ─── SECTION 2: MANIFESTO ──────────────── -->
+<section class="section section-manifesto" id="manifesto" aria-label="Manifiesto">
+  <div class="section__inner">
+    <div class="manifesto__layout">
+
+      <div class="manifesto__left">
+        <span class="label">Manifiesto</span>
+        <blockquote class="manifesto__quote">
+          <span class="manifesto__word">No</span>
+          <span class="manifesto__word">somos</span>
+          <span class="manifesto__word">ropa.</span>
+          <br/>
+          <span class="manifesto__word">Somos</span>
+          <span class="manifesto__word">una</span>
+          <span class="manifesto__word manifesto__highlight">mentalidad.</span>
+        </blockquote>
+      </div>
+
+      <div class="manifesto__body">
+        <div>
+          <h3 class="heading reveal" style="margin-bottom:1rem;">
+            La dualidad que Chile necesitaba
+          </h3>
+          <p class="body-lg reveal">
+            Hybrid Culture nació de una simple pregunta: ¿por qué tienes que elegir entre rendir en el gym o verte bien en la calle?
+          </p>
+        </div>
+        <div>
+          <p class="body-lg reveal">
+            Somos la marca que cierra esa brecha. Diseñamos para atletas que son también cultura, para gente que no se conforma con uno solo de sus lados.
+          </p>
+        </div>
+
+        <div class="divider reveal"></div>
+
+        <div class="reveal">
+          <a href="https://www.instagram.com/hybridculturecl" target="_blank" rel="noopener" class="ig-card">
+            <div class="ig-card__icon">📸</div>
+            <div>
+              <div class="ig-card__text">@hybridculturecl</div>
+              <div class="ig-card__handle">Instagram · Síguenos</div>
+            </div>
+            <svg style="margin-left:auto;flex-shrink:0;" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── SECTION 3: CATEGORIES ─────────────── -->
+<section class="section section-categories" id="categories" aria-label="Colecciones">
+  <div class="section__inner">
+
+    <div class="section-header">
+      <span class="label">Colecciones</span>
+      <h2 class="display-lg section-title-anim" style="margin-bottom:2rem;">
+        Tres mundos.<br/>
+        <span style="color:var(--c-accent);">Una marca.</span>
+      </h2>
+
+      <!-- Tabs header -->
+      <div class="tabs-header categories-tabs" role="tablist" aria-label="Categorías de productos">
+        <!-- populated by JS -->
+      </div>
+    </div>
+
+    <!-- Panels - populated by JS -->
+    <div class="category-panels" role="tabpanel">
+    </div>
+
+  </div>
+</section>
+
+<!-- ─── SECTION 4: DIFFERENTIATORS ───────── -->
+<section class="section section-diff" id="diferenciadores" aria-label="Diferenciadores">
+  <div class="section__inner">
+
+    <div class="section-header section-header--center" style="margin-bottom:5rem;">
+      <span class="label">¿Por qué Hybrid Culture?</span>
+      <h2 class="display-lg section-title-anim">
+        Lo que nos hace<br/>
+        <span style="color:var(--c-accent);">diferentes.</span>
+      </h2>
+    </div>
+
+    <!-- populated by JS -->
+    <div class="diff-grid" role="list" aria-label="Diferenciadores de la marca"></div>
+
+  </div>
+</section>
+
+<!-- ─── SECTION 5: KPIs ────────────────────── -->
+<section class="section section-kpi" id="kpis" aria-label="Métricas clave">
+  <div class="section__inner">
+
+    <div class="section-header section-header--center" style="margin-bottom:4rem;">
+      <span class="label">Números que hablan</span>
+      <h2 class="display-lg section-title-anim">
+        El crecimiento<br/>
+        <span style="color:var(--c-accent);">en cifras.</span>
+      </h2>
+    </div>
+
+    <!-- KPIs populated by JS -->
+    <div class="kpi-grid" role="list" aria-label="Indicadores clave de rendimiento"></div>
+
+  </div>
+</section>
+
+<!-- ─── SECTION 6: GROWTH CHART ───────────── -->
+<section class="section section-growth" id="growth" aria-label="Gráfico de crecimiento">
+  <div class="section__inner">
+
+    <div class="growth-layout">
+
+      <div>
+        <span class="label">Crecimiento</span>
+        <h2 class="display-md section-title-anim" style="margin-bottom:1.5rem;">
+          8 meses.<br/>
+          <span style="color:var(--c-accent);">Tracción real.</span>
+        </h2>
+        <p class="body-lg reveal" style="margin-bottom:2rem;">
+          Desde cero hasta una comunidad sólida. Cada mes, más pedidos, más seguidores, más cultura.
+        </p>
+
+        <div style="display:flex;flex-direction:column;gap:1rem;">
+          <div class="reveal" style="display:flex;align-items:center;gap:0.75rem;">
+            <div style="width:12px;height:12px;background:#c8ff00;border-radius:50%;flex-shrink:0;box-shadow:0 0 8px #c8ff00;"></div>
+            <span style="font-family:'Barlow Condensed',sans-serif;font-size:0.85rem;letter-spacing:0.1em;color:var(--c-text-muted);text-transform:uppercase;">Seguidores Instagram</span>
+          </div>
+          <div class="reveal" style="display:flex;align-items:center;gap:0.75rem;">
+            <div style="width:12px;height:12px;background:#ff4500;border-radius:50%;flex-shrink:0;box-shadow:0 0 8px #ff4500;"></div>
+            <span style="font-family:'Barlow Condensed',sans-serif;font-size:0.85rem;letter-spacing:0.1em;color:var(--c-text-muted);text-transform:uppercase;">Revenue relativo</span>
+          </div>
+        </div>
+
+        <div class="reveal" style="margin-top:2.5rem;">
+          <a href="https://www.instagram.com/hybridculturecl" target="_blank" rel="noopener" class="btn btn--primary">
+            Ver nuestra tienda
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div class="chart-wrap">
+          <canvas id="growth-chart" aria-label="Gráfico de crecimiento de seguidores y revenue" role="img"></canvas>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ─── SECTION 7: CLOSE ───────────────────── -->
+<section class="section section-close" id="close" aria-label="Cierre">
+  <div class="close__bg-glow" aria-hidden="true"></div>
+
+  <div class="close__inner">
+    <div class="close__logo" aria-hidden="true">HC</div>
+    <p class="close__message">
+      La cultura híbrida ya llegó a Chile.<br/>
+      ¿Estás dentro?
+    </p>
+    <div class="close__cta-group">
+      <a href="https://www.instagram.com/hybridculturecl" target="_blank" rel="noopener" class="btn btn--primary">
+        📸 &nbsp;@hybridculturecl
+      </a>
+      <a href="/index.html" class="btn btn--outline">
+        ← Volver al inicio
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── SCRIPTS ────────────────────────────── -->
+<script src="/shared/js/core.js" type="module"></script>
+<script src="./js/main.js"></script>
+
+<!-- Fallback embedded data (for local dev without server) -->
+<script>
+window.__HC_FALLBACK__ = true;
+</script>
+
+</body>
+</html>
